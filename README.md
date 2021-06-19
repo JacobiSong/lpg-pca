@@ -351,7 +351,7 @@ $$
 
 灰度图像：
 
-<img width="845" alt="image" src="https://user-images.githubusercontent.com/61410169/122654514-9c1a8400-d17e-11eb-9c96-eeb77856da90.png">
+<img width="858" alt="image" src="https://user-images.githubusercontent.com/61410169/122654553-d71cb780-d17e-11eb-80db-f5899f419b1f.png">
 
 左上角是原图，右上角是加噪后的图片
 
@@ -363,7 +363,7 @@ $$
 
 彩色图像：
 
-![Uploading image.png…]()
+<img width="845" alt="image" src="https://user-images.githubusercontent.com/61410169/122654514-9c1a8400-d17e-11eb-9c96-eeb77856da90.png">
 
 第一行左面是原图，右面是加噪后的图片
 
