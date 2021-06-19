@@ -19,7 +19,9 @@ LPG-PCA，正如其名所示，该算法有两个核心思想：LPG（局部像�
 
 这两点内容将会在接下来部分做进一步讲解。
 
-该算法如下图所示对像素进行分组：![截屏2021-06-20 上午12.26.35](/Users/jacobi_song/Library/Application Support/typora-user-images/截屏2021-06-20 上午12.26.35.png)
+该算法如下图所示对像素进行分组：
+
+<img width="810" alt="image" src="https://user-images.githubusercontent.com/61410169/122654497-83aa6980-d17e-11eb-905e-327446d4334c.png">
 
 正中间的是我们将要降噪的像素点，我们将以该点为中心，$K\times K$的矩阵所展开的向量称为中心向量；将以该点为中心，$L\times L$的矩阵称为训练窗口，$L$与$K$是超参数，==这里要注意的是，要想以选定的像素点为中心，$K$和$L$应都为奇数==。
 
@@ -349,7 +351,7 @@ $$
 
 灰度图像：
 
-![截屏2021-06-20 上午4.03.01](/Users/jacobi_song/Library/Application Support/typora-user-images/截屏2021-06-20 上午4.03.01.png)
+<img width="845" alt="image" src="https://user-images.githubusercontent.com/61410169/122654514-9c1a8400-d17e-11eb-9c96-eeb77856da90.png">
 
 左上角是原图，右上角是加噪后的图片
 
@@ -361,7 +363,7 @@ $$
 
 彩色图像：
 
-![截屏2021-06-20 上午4.10.51](/Users/jacobi_song/Library/Application Support/typora-user-images/截屏2021-06-20 上午4.10.51.png)
+![Uploading image.png…]()
 
 第一行左面是原图，右面是加噪后的图片
 
